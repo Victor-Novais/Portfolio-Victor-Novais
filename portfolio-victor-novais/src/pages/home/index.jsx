@@ -7,11 +7,11 @@ export default function Home() {
             <Header />
 
             <div className="home-container">
-                <div className="home-title">
+                <div className="home-title hero_cont animate__animated animate__fadeIn animate__slideInDown animate__delay-1s">
 
 
                     <div className="line h1-60">
-                        <span>F</span><span>r</span><span>o</span><span>n</span><span>t</span><span>-</span><span>E</span><span>n</span><span>d</span>
+                        <span >F</span><span>r</span><span>o</span><span>n</span><span>t</span><span>-</span><span>E</span><span>n</span><span>d</span>
                     </div>
                     <div className="line h1-60">
                         <span>&</span>
