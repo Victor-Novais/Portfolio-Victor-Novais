@@ -1,9 +1,9 @@
 import "./index.css"
-
+import Header from "../../components/header/index"
 export default function Home() {
     return (
-        <div>
-            <h1>Inicio de Tudo</h1>
+        <div className="home">
+            <Header />
         </div>
     )
 
