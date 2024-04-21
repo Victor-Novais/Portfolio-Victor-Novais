@@ -1,0 +1,48 @@
+.summary {
+    width: 595px;
+    height: 110px;
+    margin-top: 50px;
+}
+
+.home-title {
+    display: flex;
+    max-width: 650px;
+    height: 110px;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.home-title h1 {
+    display: flex;
+    width: 500px;
+}
+
+.home-title div {
+
+    margin-right: 20px;
+}
+
+.line {
+    display: flex;
+    justify-content: center;
+}
+
+.line span {
+
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.line span:hover {
+    transform: translateY(-5px);
+    color: rgb(82, 1, 82);
+}
+
+.about-me-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(82, 1, 82);
+
+    transition: color 0.3s ease;
+}
