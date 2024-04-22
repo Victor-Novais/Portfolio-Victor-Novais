@@ -9,7 +9,6 @@ export default function Home() {
             <div className="home-container">
                 <div className="home-title hero_cont animate__animated animate__fadeIn animate__slideInDown animate__delay-1s">
 
-
                     <div className="line h1-60">
                         <span >F</span><span>r</span><span>o</span><span>n</span><span>t</span><span>-</span><span>E</span><span>n</span><span>d</span>
                     </div>
@@ -38,6 +37,10 @@ export default function Home() {
                     Sobre mim
                     <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M7.41 8.59L12 13.17l4.59-4.58L18 10l-6 6-6-6 1.41-1.41z" fill="#9C27B0"></path></svg>
                 </a>
+            </div>
+
+            <div className="Skill">
+                <p>Skill</p>
             </div>
         </div>
 
