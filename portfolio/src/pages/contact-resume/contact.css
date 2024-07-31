@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.contact-bar {
+
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+
+    border-radius: 30px;
+    border: 1px solid #565656;
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 50px;
+    z-index: 10;
+
+}
+
+.contact-header {
+    width: 288px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.perfil {
+    width: 250px;
+    border-radius: 120px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+}
+
+span {
+    text-align: right;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 30px;
+    scroll-behavior: smooth;
+    color: #ffffff;
+}
+
+li {
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+
+    text-align: -webkit-match-parent;
+    unicode-bidi: isolate;
+}
+
+.social li {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    line-height: 46px;
+    border: 2px solid #565656;
+    border-radius: 50%;
+    filter: brightness(0) saturate(100%) invert(41%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+    margin-bottom: 20px;
+    transition: .3s;
+}
+
+.social li:hover {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(33%) saturate(3610%) hue-rotate(91deg) brightness(100%) contrast(101%);
+}
+
+.icon-email {
+
+    width: 24px;
+    height: 24px;
+}
+
+.icon {
+    margin-top: 15px;
+    width: 24px;
+    height: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.theme-btn {
+    width: 288px;
+    height: 52px;
+    background: #28e98c;
+    color: #000000;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    justify-content: center;
+    text-transform: uppercase;
+    border: 2px solid #28e98c;
+    transition: .3s;
+    cursor: pointer;
+    gap: 10px;
+}
+
+.theme-btn:hover {
+    background-color: #1F1F1F;
+    color: #28e98c;
+    border-color: #28e98c;
+}
+
+.theme-btn:hover .icon-email {
+    filter: brightness(0) saturate(100%) invert(70%) sepia(33%) saturate(3610%) hue-rotate(91deg) brightness(100%) contrast(101%);
+}
