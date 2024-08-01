@@ -19,7 +19,7 @@ export default function ContactResume() {
             <h2>Based in Salvador, Bahia, Brazil</h2>
             <ul className='social'>
                 <li><a href="https://www.instagram.com/novais_.dev/" target="_blank" rel="noopener noreferrer"><img src={instagram} className="icon" alt="Instagram" /></a></li>
-                <li><a href="https://x.com/VictorNova38306" target="_blank" rel="noopener noreferrer"><img src={twitter} className="icon" alt="Twitter" /></a></li>
+                <li><a href="https://x.com/novaisDev" target="_blank" rel="noopener noreferrer"><img src={twitter} className="icon" alt="Twitter" /></a></li>
                 <li><a href="https://github.com/Victor-Novais" target="_blank" rel="noopener noreferrer"><img src={gitHub} className="icon" alt="GitHub" /></a></li>
                 <li><a href="https://www.linkedin.com/in/victor-novais-/" target="_blank" rel="noopener noreferrer"><img src={linkedin} className="icon" alt="LinkedIn" /></a></li>
             </ul>
