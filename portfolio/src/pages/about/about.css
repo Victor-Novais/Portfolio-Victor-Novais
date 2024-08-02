@@ -3,7 +3,7 @@
     height: 900px;
     position: absolute;
     margin-left: 35%;
-    margin-top: 880px;
+    margin-bottom: 100px;
 }
 
 .text-about {
@@ -14,8 +14,8 @@
 
     margin-bottom: 20px;
     font-weight: 300;
-    margin-top: 100px;
-    margin-left: 35%;
+    margin-top: 40px;
+
 
     font-size: 48px;
     line-height: 60px;
@@ -27,8 +27,6 @@
 
 
 .span-about {
-
-    margin-left: 35%;
     width: 700px;
 }
 
@@ -38,6 +36,14 @@
     font-size: 20px;
     scroll-behavior: smooth;
     color: #999999;
+}
+
+.span-text-about {
+    font-family: 'Inter', sans-serif;
+    color: #28e98c;
+    font-size: 48px;
+    letter-spacing: -0.2px;
+    line-height: 90px;
 }
 
 .hero-h4-about {
@@ -53,7 +59,7 @@
     display: inline-flex;
     align-items: center;
     margin-top: 800px;
-    margin-left: 35%;
+
 }
 
 .hero-h4-about img {
