@@ -1,6 +1,6 @@
 import './contact.css';
 
-import perfil from "../../assets/perfil.jpeg";
+import perfil from "../../assets/perfil.png";
 import instagram from "../../assets/instagram.png";
 import twitter from "../../assets/twitter.png";
 import gitHub from "../../assets/github.png";
