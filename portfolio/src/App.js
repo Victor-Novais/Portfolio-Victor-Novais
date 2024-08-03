@@ -1,4 +1,3 @@
-
 import './App.css';
 import Menu from './components/menu/menu.jsx';
 import About from './pages/about/about.jsx';
@@ -11,12 +10,22 @@ import Skills from './pages/skills/skills.jsx';
 function App() {
   return (
     <div className="App">
-      <Presentation />
-      <About />
-      <Skills />
-      <Portfolio />
-      <Contact />
       <Menu />
+      <div id="home">
+        <Presentation />
+      </div>
+      <div id="about">
+        <About />
+      </div>
+      <div id="skills">
+        <Skills />
+      </div>
+      <div id="portfolio">
+        <Portfolio />
+      </div>
+      <div id="contact">
+        <Contact />
+      </div>
       <ContactResume />
     </div>
   );

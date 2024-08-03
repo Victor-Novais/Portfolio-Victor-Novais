@@ -3,7 +3,7 @@ import home from "../../assets/home.png"
 
 export default function Presentation() {
     return (
-        <div className="hero-presentation">
+        <div className="hero-presentation" >
             <h4 className="hero-h4"> <img src={home} alt="" /><i> Introduce</i></h4>
             <h1 className="text-apresentation">Hello! I'm<span className="span-name">Victor Novais</span>,
                 full-stack developer.</h1>

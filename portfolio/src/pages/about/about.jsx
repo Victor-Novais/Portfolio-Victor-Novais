@@ -3,7 +3,8 @@ import user from "../../assets/user.png"
 
 export default function About() {
     return (
-        <div className="hero-about">
+
+        <div className="hero-about" id="about">
             <h4 className="hero-h4-about"> <img src={user} alt="" /><i> About</i></h4>
             <h1 className="text-about">Every big project starts with an idea and dedicated effort to <span className="span-text-about">make it a reality</span> .</h1>
             <div className="span-about">

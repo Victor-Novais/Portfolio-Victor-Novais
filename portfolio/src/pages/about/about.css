@@ -1,9 +1,11 @@
-.hero-bout {
+.hero-about {
+
     width: 770px;
     height: 900px;
-    position: absolute;
-    margin-left: 35%;
-    margin-bottom: 100px;
+    margin-top: 100px;
+
+
+
 }
 
 .text-about {
@@ -47,6 +49,7 @@
 }
 
 .hero-h4-about {
+
     font-size: 12px;
     color: #ffffff;
     text-transform: uppercase;
@@ -58,7 +61,7 @@
     margin-bottom: 53px;
     display: inline-flex;
     align-items: center;
-    margin-top: 800px;
+
 
 }
 

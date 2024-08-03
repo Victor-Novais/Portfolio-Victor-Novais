@@ -9,32 +9,32 @@ export default function Menu() {
     return (
         <ul className="menu">
             <li>
-                <a href="#">
+                <a href="#home">
                     <img className="icon-menu" src={home} alt="Home" />
                     <span className="tooltip">Home</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#about">
                     <img className="icon-menu" src={user} alt="User" />
                     <span className="tooltip">About</span>
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="#skills">
                     <img className="icon-menu" src={skills} alt="Skills" />
                     <span className="tooltip">Skills</span>
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <img className="icon-menu" src={list} alt="List" />
+                <a href="#portfolio">
+                    <img className="icon-menu" src={list} alt="Portfolio" />
                     <span className="tooltip">Portfolio</span>
                 </a>
             </li>
             <li>
-                <a href="#">
-                    <img className="icon-menu" src={email} alt="Email" />
+                <a href="#contact">
+                    <img className="icon-menu" src={email} alt="Contact" />
                     <span className="tooltip">Contact</span>
                 </a>
             </li>
