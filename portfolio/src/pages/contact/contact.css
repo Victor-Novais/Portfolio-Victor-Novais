@@ -1,0 +1,162 @@
+.hero-contact {
+    width: 770px;
+    height: 960px;
+    margin-top: 200px;
+}
+
+.hero-h4-contact {
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 300;
+
+    border: 1px solid #565656;
+    padding: 9px 20px;
+    border-radius: 30px;
+    margin-bottom: 53px;
+    display: inline-flex;
+    align-items: center;
+    margin-top: 45px;
+    margin-bottom: 20px;
+}
+
+.hero-h4-contact img {
+    width: 20px;
+    margin-right: 10px;
+    filter: brightness(0) saturate(100%) invert(100%);
+
+}
+
+.contact-h3 {
+    margin-top: -30px;
+    font-size: 28px;
+    color: #ffffff;
+
+    font-weight: 300;
+
+}
+
+body,
+input,
+textarea,
+select,
+button {
+    font-family: Arial, sans-serif;
+    color: #ccc;
+}
+
+.row {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+
+.col-md-6 {
+    flex: 1;
+    min-width: 45%;
+}
+
+.col-md-12 {
+    flex: 1 1 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 10px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.input-group input,
+.input-group textarea,
+.input-group select {
+    background-color: #1f1f1f;
+    color: #ccc;
+    border: 1px solid #333;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input-group input::placeholder,
+.input-group textarea::placeholder {
+    color: #555;
+}
+
+.input-group select {
+    appearance: none;
+    background-color: #1f1f1f;
+    color: #ccc;
+}
+
+.input-group textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.upload-attachment label {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.upload-attachment i {
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.upload-attachment input {
+    display: none;
+}
+
+.submit-btn-wrap {
+    text-align: center;
+}
+
+
+
+
+input,
+textarea,
+select,
+.theme-btn {
+    width: 100%;
+    margin-top: 5px;
+}
+
+sup {
+    color: #00ff96;
+}
+
+label span {
+    color: #ffffff;
+    font-size: 10px;
+}
+
+
+.upload-attachment label {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.upload-attachment img.upload-icon {
+    width: 24px;
+
+    height: auto;
+    margin-right: 10px;
+    filter: brightness(0) saturate(100%) invert(100%);
+}

@@ -25,7 +25,7 @@ export default function ContactResume() {
             </ul>
 
             <a href="mailto:victornovais1337@gmail.com?subject=Contrate-me&body=Olá,%20gostaria%20de%20discutir%20uma%20oportunidade." className="theme-btn">
-                <img className="icon-email" src={email} alt="Email" /><span>Contrate-me!</span>
+                <img className="icon-email" src={email} alt="Email" /><span className='span-contrate'>Contrate-me!</span>
             </a>
         </div>
     );

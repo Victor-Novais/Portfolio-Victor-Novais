@@ -54,10 +54,9 @@ h2 {
 }
 
 span {
-    text-align: right;
+
     color: #fff;
-    font-size: 23px;
-    font-weight: 400;
+
 }
 
 h1 {
@@ -139,4 +138,11 @@ a {
 
     filter: brightness(0) saturate(100%) invert(68%) sepia(53%) saturate(606%) hue-rotate(96deg) brightness(101%) contrast(92%);
 
+}
+
+.span-contrate span {
+    text-align: right;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
 }
