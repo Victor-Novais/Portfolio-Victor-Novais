@@ -16,3 +16,27 @@ html {
   flex-direction: column;
   align-items: center;
 }
+
+.section {
+  opacity: 0;
+
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+@media (min-width: 1024px) and (max-width: 1919px) {
+  body {
+    zoom: 0.8;
+  }
+
+  .App {
+    gap: 100px;
+  }
+}
+
+@media (min-width: 1920px) {
+  body {
+    zoom: 1;
+  }
+
+
+}

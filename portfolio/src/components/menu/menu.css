@@ -75,3 +75,8 @@
     filter: brightness(0) saturate(100%) invert(68%) sepia(53%) saturate(606%) hue-rotate(96deg) brightness(101%) contrast(92%);
 
 }
+
+.icon-menu.active {
+    transform: scale(1.2);
+    filter: brightness(0) saturate(100%) invert(68%) sepia(53%) saturate(606%) hue-rotate(96deg) brightness(101%) contrast(92%);
+}
