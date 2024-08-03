@@ -6,6 +6,7 @@ import nodejs from "../../assets/nodejs.png"
 import html from "../../assets/html-5.png"
 import css from "../../assets/css-3.png"
 import skills from "../../assets/skills.png"
+import sql from "../../assets/servidor-sql.png"
 
 export default function Skills() {
     return (
@@ -33,6 +34,14 @@ export default function Skills() {
                         </div>
 
 
+                    </div> <div className="div-skill">
+                        <div class="skill">
+                            <div class="skill-inner">
+                                <img className="skill-icon" src={sql} alt="JS"></img>
+                                <h1 class="percent">90%</h1>
+                            </div>
+                            <p class="name">SQL</p>
+                        </div>
                     </div><div className="div-skill">
                         <div class="skill">
                             <div class="skill-inner">
