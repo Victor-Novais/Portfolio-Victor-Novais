@@ -12,9 +12,9 @@ export default function Skills() {
     return (
         <section id="skill">
             <div className="hero-skills">
-                <h4 className="hero-h4-skills"> <img src={skills} alt="" /><i> MY Skills</i></h4>
+                <h4 className="hero-h4-skills"> <img src={skills} alt="" /><i> Habilidades</i></h4>
                 <div className="skills-area">
-                    <header className="header-skills">My <span className="span-text-about">Advantages</span></header>
+                    <header className="header-skills">Minhas <span className="span-text-about">Habilidades</span></header>
                     <div className="row-skills">
                         <div className="div-skill">
                             <div class="skill">

@@ -16,7 +16,7 @@ export default function ContactResume() {
             </header>
             <img className='perfil' src={perfil} alt="Perfil" />
             <h2>victornovais1337@gmail.com</h2>
-            <h2>Based in Salvador, Bahia, Brazil</h2>
+            <h2>Salvador, Bahia, Brazil</h2>
             <ul className='social'>
                 <li><a href="https://www.instagram.com/novais_.dev/" target="_blank" rel="noopener noreferrer"><img src={instagram} className="icon" alt="Instagram" /></a></li>
                 <li><a href="https://x.com/novaisDev" target="_blank" rel="noopener noreferrer"><img src={twitter} className="icon" alt="Twitter" /></a></li>
@@ -25,7 +25,7 @@ export default function ContactResume() {
             </ul>
 
             <a href="mailto:victornovais1337@gmail.com?subject=Contrate-me&body=Olá,%20gostaria%20de%20discutir%20uma%20oportunidade." className="theme-btn">
-                <img className="icon-email" src={email} alt="Email" /><span className='span-contrate'>HIRE ME!</span>
+                <img className="icon-email" src={email} alt="Email" /><span className='span-contrate'>Entre em contato!</span>
             </a>
         </div>
     );

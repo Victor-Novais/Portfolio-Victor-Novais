@@ -28,9 +28,7 @@ html {
     zoom: 0.8;
   }
 
-  .App {
-    gap: 100px;
-  }
+
 }
 
 @media (min-width: 1920px) {

@@ -1,7 +1,6 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
 import './contact.css';
-import envio from '../../assets/envio.png';
 import contact from '../../assets/cifrao-com-luz.png';
 
 export default function Contact() {
@@ -25,7 +24,7 @@ export default function Contact() {
                 <img src={contact} alt="" /><i>portfolio</i>
             </h4>
             <div>
-                <header className="header-skills">Let's <span className="span-text-about">Work Together!</span></header>
+                <header className="header-skills">Entre em <span className="span-text-about">Contato!</span></header>
                 <h3 className='contact-h3'>victornovais1337@gmail.com</h3>
             </div>
 
@@ -33,7 +32,7 @@ export default function Contact() {
                 <div className="row">
                     <div className="col-md-6">
                         <div className="input-group">
-                            <label htmlFor="full-name">full Name <sup>*</sup></label>
+                            <label htmlFor="full-name">Nome completo <sup>*</sup></label>
                             <input type="text" name="fullName" id="full-name" placeholder="Your Full Name" required />
                         </div>
                     </div>
@@ -45,36 +44,27 @@ export default function Contact() {
                     </div>
                     <div className="col-md-6">
                         <div className="input-group">
-                            <label htmlFor="phone-number">phone <span>(optional)</span></label>
+                            <label htmlFor="phone-number">Telefone <span>(optional)</span></label>
                             <input type="text" name="phoneNumber" id="phone-number" placeholder="Your phone number" />
                         </div>
                     </div>
                     <div className="col-md-6"></div>
                     <div className="col-md-12">
                         <div className="input-group">
-                            <label htmlFor="budget">your budget <span>(optional)</span></label>
+                            <label htmlFor="budget">Seu orçamento <span>(optional)</span></label>
                             <input type="number" name="budget" id="budget" placeholder="A range budget for your project" />
                         </div>
                     </div>
                     <div className="col-md-12">
                         <div className="input-group">
-                            <label htmlFor="message">message</label>
+                            <label htmlFor="message">Menssagem</label>
                             <textarea name="message" id="message" placeholder="Write your message here ..."></textarea>
                         </div>
                     </div>
-                    <div className="col-md-12">
-                        <div className="input-group upload-attachment">
-                            <div>
-                                <label htmlFor="upload-attachment">
-                                    <img src={envio} alt="Upload Icon" className="upload-icon" /> add an attachment
-                                    <input type="file" name="file" id="upload-attachment"></input>
-                                </label>
-                            </div>
-                        </div>
-                    </div>
+
                     <div className="col-md-12">
                         <div className="input-group submit-btn-wrap">
-                            <button className="theme-btn" name="submit" type="submit" id="submit-form">send message</button>
+                            <button className="theme-btn" name="submit" type="submit" id="submit-form">Enviar</button>
                         </div>
                     </div>
                 </div>

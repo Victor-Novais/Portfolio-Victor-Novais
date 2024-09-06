@@ -11,7 +11,7 @@ export default function Portfolio() {
                 <img src={list} alt="" /><i>portfolio</i>
             </h4>
             <div>
-                <header className="header-skills">My <span className="span-text-about">Projects</span></header>
+                <header className="header-skills">Meus <span className="span-text-about">Projetos</span></header>
                 <div className='portfolio-how'>
                     <div className='portfolio-item-1'>
                         <div className="image-box">
@@ -19,8 +19,8 @@ export default function Portfolio() {
                         </div>
                         <div className="content-box"> <a href="https://github.com/Victor-Novais/controle-de-caixa" target="_blank" rel="noopener noreferrer" >
                             <div>
-                                <h3 className="portfolio-title">Urban Store</h3>
-                                <p>The project dealt with a system to control the flow of sales, expenses, and stock.</p>
+                                <h3 className="portfolio-title">Loja Urban</h3>
+                                <p>O projeto se trata de um sistema de controle de fluxo de vendas, despesas e estoque.</p>
                             </div>
                             <img src={seta} className='seta-ir' alt="" /></a>
                         </div>
@@ -40,8 +40,8 @@ export default function Portfolio() {
                             <a href="https://github.com/Victor-Novais/PayWise-FrontEnd" target="_blank" rel="noopener noreferrer" > <div>
                                 <div>
                                     <h3 className="portfolio-title">Pay Wise</h3>
-                                    <p>Designed to help users manage finances
-                                        of all users of a company.</p></div>
+                                    <p>Criado parauma empresa a gerenciar finanças
+                                        de todos os usuários.</p></div>
                             </div>
                                 <img src={seta} className='seta-ir' alt="" /></a>
                         </div>
@@ -61,7 +61,7 @@ export default function Portfolio() {
                             <a href="https://github.com/Victor-Novais/dindin-bank" target="_blank" rel="noopener noreferrer">
                                 <div>
                                     <h3 className="portfolio-title">SecureBank</h3>
-                                    <p>This project allows registered users to manage their personal finances.</p>
+                                    <p>Este projeto permite que usuários cadastrados gerenciem suas finanças pessoais.</p>
                                 </div>
                                 <img src={seta} className='seta-ir' alt="" /></a>
                         </div>

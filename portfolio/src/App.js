@@ -14,6 +14,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 function App() {
   useEffect(() => {
+    // Animating sections
     gsap.utils.toArray('.section').forEach(section => {
       gsap.fromTo(section,
         { opacity: 0, y: 50 },
@@ -24,7 +25,7 @@ function App() {
           ease: 'power4.out',
           scrollTrigger: {
             trigger: section,
-            start: 'top 80%',
+            start: 'top 90%',
             toggleActions: 'play none none none',
             onEnter: () => setActiveMenu(section.id),
             onEnterBack: () => setActiveMenu(section.id)
@@ -33,6 +34,7 @@ function App() {
       );
     });
 
+    // Function to set active menu item
     function setActiveMenu(sectionId) {
       document.querySelectorAll('.icon-menu').forEach(icon => {
         icon.classList.remove('active');
@@ -43,15 +45,29 @@ function App() {
       }
     }
 
-    // Para definir o menu ativo ao carregar a página
-    const currentSection = document.querySelector('.section');
-    if (currentSection) {
-      setActiveMenu(currentSection.id);
+    // Animating ContactResume
+    const contactResume = document.querySelector('.contact-resume');
+    if (contactResume) {
+      gsap.fromTo(contactResume,
+        { opacity: 0, scale: 0.8 },
+        {
+          opacity: 1,
+          scale: 1,
+          duration: 1.5,
+          ease: 'power4.out',
+          scrollTrigger: {
+            trigger: contactResume,
+            start: 'top 80%',
+            toggleActions: 'play none none none'
+          }
+        }
+      );
     }
+
   }, []);
 
   return (
-    <div className="App">
+    <div className="App"><ContactResume />
       <Menu />
       <div id="home" className="section">
         <Presentation />
@@ -67,8 +83,8 @@ function App() {
       </div>
       <div id="contact" className="section">
         <Contact />
+
       </div>
-      <ContactResume />
     </div>
   );
 }

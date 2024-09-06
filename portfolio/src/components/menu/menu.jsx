@@ -12,19 +12,19 @@ export default function Menu() {
             <li id="menu-home">
                 <a href="#home">
                     <img className="icon-menu" src={home} alt="Home" />
-                    <span className="tooltip">Home</span>
+                    <span className="tooltip">Início</span>
                 </a>
             </li>
             <li id="menu-about">
                 <a href="#about">
                     <img className="icon-menu" src={user} alt="User" />
-                    <span className="tooltip">About</span>
+                    <span className="tooltip">Sobre mim</span>
                 </a>
             </li>
             <li id="menu-skills">
                 <a href="#skills">
                     <img className="icon-menu" src={skills} alt="Skills" />
-                    <span className="tooltip">Skills</span>
+                    <span className="tooltip">Habilidades</span>
                 </a>
             </li>
             <li id="menu-portfolio">
@@ -36,7 +36,7 @@ export default function Menu() {
             <li id="menu-contact">
                 <a href="#contact">
                     <img className="icon-menu" src={email} alt="Contact" />
-                    <span className="tooltip">Contact</span>
+                    <span className="tooltip">Contato</span>
                 </a>
             </li>
         </ul>
