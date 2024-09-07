@@ -6,15 +6,12 @@ import project3 from "../../assets/project-3.png";
 import seta from "../../assets/seta-direita.png";
 export default function Portfolio() {
   document.addEventListener("DOMContentLoaded", function () {
-    // Seleciona todos os itens de portfólio
     const portfolioItems = document.querySelectorAll(".portfolio-item");
 
     portfolioItems.forEach((item) => {
       item.addEventListener("click", function () {
-        // Remove a classe active de todos os itens antes de adicionar ao item clicado
         portfolioItems.forEach((i) => i.classList.remove("active"));
 
-        // Adiciona ou remove a classe active ao item clicado
         if (!this.classList.contains("active")) {
           this.classList.add("active");
         }
