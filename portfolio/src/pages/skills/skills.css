@@ -106,9 +106,43 @@ p {
     width: 400px;
     margin-top: -300px;
   }
+
   .row-skills {
     width: 480px;
     gap: 30px;
     margin-left: -10px;
+  }
+
+  .div-skill {
+    width: 150px; /* Ajuste o tamanho das bolinhas */
+    height: 225px; /* Ajuste a altura das bolinhas */
+    margin-right: 20px; /* Ajuste a margem */
+  }
+
+  .skill-inner {
+    border-radius: 70px; /* Diminua o raio da borda para fazer as bolinhas menores */
+    padding: 40px 0 35px 0; /* Ajuste o padding conforme necessário */
+  }
+
+  .skill-icon {
+    width: 50px; /* Ajuste o tamanho dos ícones */
+    height: 45px; /* Ajuste a altura dos ícones */
+    margin-left: 48px; /* Ajuste a margem */
+    margin-top: 20px; /* Ajuste a margem */
+  }
+
+  .header-skills {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .percent {
+    font-size: 24px;
+    margin-left: 53px;
+  }
+
+  p {
+    font-size: 12px;
+    margin-left: 55px;
   }
 }

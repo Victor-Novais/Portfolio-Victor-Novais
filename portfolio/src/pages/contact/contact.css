@@ -162,6 +162,14 @@ label span {
 
 @media (max-width: 640px) {
   .hero-contact {
-    width: 300px;
+    width: 280px;
+    margin-left: -80px;
+  }
+  .contact-h3 {
+    margin-top: -30px;
+    font-size: 24px;
+    color: #ffffff;
+
+    font-weight: 300;
   }
 }
