@@ -159,3 +159,9 @@ label span {
     width: 500px;
   }
 }
+
+@media (max-width: 640px) {
+  .hero-contact {
+    width: 300px;
+  }
+}

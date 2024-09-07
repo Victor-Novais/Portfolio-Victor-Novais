@@ -101,3 +101,14 @@ p {
     width: 500px;
   }
 }
+@media (max-width: 450px) {
+  .hero-skills {
+    width: 400px;
+    margin-top: -300px;
+  }
+  .row-skills {
+    width: 480px;
+    gap: 30px;
+    margin-left: -10px;
+  }
+}
