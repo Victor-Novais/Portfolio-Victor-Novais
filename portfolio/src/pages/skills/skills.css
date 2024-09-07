@@ -1,97 +1,103 @@
 .hero-skills {
-    width: 770px;
-    height: auto;
+  width: 770px;
+  height: auto;
 
-
-    margin-top: 180px;
+  margin-top: 180px;
 }
 
 .hero-h4-skills {
-    font-size: 12px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin: 0;
-    border: 1px solid #565656;
-    padding: 9px 20px;
-    border-radius: 30px;
-    margin-bottom: 53px;
-    display: inline-flex;
-    align-items: center;
-    margin-top: 45px;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+  border: 1px solid #565656;
+  padding: 9px 20px;
+  border-radius: 30px;
+  margin-bottom: 53px;
+  display: inline-flex;
+  align-items: center;
+  margin-top: 45px;
 }
 
 .hero-h4-skills img {
-    width: 20px;
-    margin-right: 10px;
-    filter: brightness(0) saturate(100%) invert(100%);
-
+  width: 20px;
+  margin-right: 10px;
+  filter: brightness(0) saturate(100%) invert(100%);
 }
 
 .header-skills {
-    font-family: 'Inter', sans-serif;
-    color: white;
+  font-family: "Inter", sans-serif;
+  color: white;
 
+  margin-bottom: 20px;
+  font-weight: 300;
+  margin-top: 20px;
 
-    margin-bottom: 20px;
-    font-weight: 300;
-    margin-top: 20px;
-
-
-    font-size: 48px;
-    line-height: 60px;
-    color: #fff;
-    font-weight: 300;
-    margin-bottom: 33px;
+  font-size: 48px;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 33px;
 }
 
 .div-skill {
-    width: 175px;
-    height: 275px;
-    margin-right: 40px;
+  width: 175px;
+  height: 275px;
+  margin-right: 40px;
 }
 
 .skill-inner {
-    border: 2px solid #565656;
-    border-radius: 85px;
-    padding: 54px 0 48px 0;
-    margin-bottom: 20px;
-    transition: .3s;
-    align-items: center;
+  border: 2px solid #565656;
+  border-radius: 85px;
+  padding: 54px 0 48px 0;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  align-items: center;
 }
 
 .div-skill :hover {
-    border-color: #28e98c;
+  border-color: #28e98c;
 }
 
 .skill-icon {
-    filter: brightness(0) saturate(100%) invert(100%);
-    width: 70px;
-    height: 61px;
-    margin-left: 50px;
-    margin-top: 40px;
+  filter: brightness(0) saturate(100%) invert(100%);
+  width: 70px;
+  height: 61px;
+  margin-left: 50px;
+  margin-top: 40px;
 }
 
 .row-skills {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    width: 1080px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  width: 1080px;
 }
 
 .percent {
-    font-size: 30px;
-    color: #28e98c;
-    font-weight: 300;
-    margin: 0;
-    margin-top: 20px;
-    margin-left: 60px;
+  font-size: 30px;
+  color: #28e98c;
+  font-weight: 300;
+  margin: 0;
+  margin-top: 20px;
+  margin-left: 60px;
 }
 
 p {
-    font-family: 'Inter', sans-serif;
-    font-size: 14px;
-    color: #fff;
-    margin: 0;
-    margin-left: 68px;
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  color: #fff;
+  margin: 0;
+  margin-left: 68px;
+}
+
+@media (max-width: 640px) {
+  .hero-skills {
+    width: 500px;
+    margin-top: -300px;
+  }
+  .row-skills {
+    width: 500px;
+  }
 }

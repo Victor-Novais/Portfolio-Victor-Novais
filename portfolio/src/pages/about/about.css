@@ -1,73 +1,101 @@
 .hero-about {
-
-    width: 770px;
-    height: 900px;
-    margin-top: 180px;
-
-
-
+  width: 770px;
+  height: 900px;
+  margin-top: 180px;
 }
 
 .text-about {
-    width: 960px;
-    font-family: 'Inter', sans-serif;
-    color: white;
+  width: 960px;
+  font-family: "Inter", sans-serif;
+  color: white;
 
+  font-weight: 300;
+  margin-top: 40px;
 
-
-    font-weight: 300;
-    margin-top: 40px;
-
-
-    font-size: 48px;
-    line-height: 60px;
-    color: #fff;
-    font-weight: 300;
-    margin-bottom: 33px;
+  font-size: 48px;
+  line-height: 60px;
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 33px;
 }
 
-
-
 .span-about {
-    width: 700px;
+  width: 700px;
 }
 
 .span-about span {
-    line-height: 30px;
-    font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    scroll-behavior: smooth;
-    color: #999999;
+  line-height: 30px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  scroll-behavior: smooth;
+  color: #999999;
 }
 
 .span-text-about {
-    font-family: 'Inter', sans-serif;
-    color: #28e98c;
-    font-size: 48px;
-    letter-spacing: -0.2px;
-    line-height: 90px;
+  font-family: "Inter", sans-serif;
+  color: #28e98c;
+  font-size: 48px;
+  letter-spacing: -0.2px;
+  line-height: 90px;
 }
 
 .hero-h4-about {
-
-    font-size: 12px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-weight: 300;
-    margin: 0;
-    border: 1px solid #565656;
-    padding: 9px 20px;
-    border-radius: 30px;
-    margin-bottom: 53px;
-    display: inline-flex;
-    align-items: center;
-
-
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin: 0;
+  border: 1px solid #565656;
+  padding: 9px 20px;
+  border-radius: 30px;
+  margin-bottom: 53px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .hero-h4-about img {
-    width: 20px;
-    margin-right: 10px;
-    filter: brightness(0) saturate(100%) invert(100%);
+  width: 20px;
+  margin-right: 10px;
+  filter: brightness(0) saturate(100%) invert(100%);
+}
 
+@media (max-width: 640px) {
+  .hero-about {
+    width: 500px;
+
+    margin-top: -350px;
+  }
+
+  .text-about {
+    width: 100%;
+    font-size: 36px;
+    line-height: 42px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  .span-about {
+    width: 100%;
+  }
+
+  .span-about span {
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .span-text-about {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .hero-h4-about {
+    font-size: 10px;
+    padding: 7px 15px;
+    margin-top: 30px;
+  }
+
+  .hero-h4-about img {
+    width: 15px;
+    margin-right: 5px;
+  }
 }
