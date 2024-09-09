@@ -82,7 +82,7 @@
     hue-rotate(96deg) brightness(101%) contrast(92%);
 }
 
-@media (max-width: 640px) {
+@media (min-width: 100px) and (max-width: 1024px) {
   .menu {
     display: none;
   }
