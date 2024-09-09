@@ -173,3 +173,87 @@ label span {
     font-weight: 300;
   }
 }
+
+@media (max-width: 360px) {
+  .hero-contact {
+    width: 320px;
+    height: auto;
+    margin-top: 40px;
+    margin-left: 0;
+  }
+
+  .hero-h4-contact {
+    font-size: 10px;
+    padding: 7px 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+  }
+
+  .hero-h4-contact img {
+    width: 18px;
+    margin-right: 8px;
+  }
+
+  .contact-h3 {
+    font-size: 20px;
+    margin-top: -20px;
+    color: #ffffff;
+    font-weight: 300;
+  }
+
+  .row {
+    margin-left: 0px;
+    margin-top: 15px;
+    gap: 15px;
+    max-width: 300px;
+  }
+
+  .col-md-6 {
+    flex: 1 1 100%;
+    min-width: 100%;
+  }
+
+  .input-group {
+    margin-bottom: 15px;
+  }
+
+  .input-group label {
+    font-size: 8px;
+  }
+
+  .input-group input,
+  .input-group textarea,
+  .input-group select {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .input-group textarea {
+    min-height: 80px;
+  }
+
+  .upload-attachment label {
+    font-size: 12px;
+  }
+
+  .upload-attachment img.upload-icon {
+    width: 20px;
+  }
+
+  .submit-btn-wrap {
+    margin-top: 10px;
+  }
+
+  input,
+  textarea,
+  select,
+  .theme-btn {
+    width: 100%;
+    margin-top: 5px;
+  }
+
+  label span {
+    font-size: 8px;
+  }
+}
