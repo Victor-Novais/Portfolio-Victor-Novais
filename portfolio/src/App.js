@@ -69,7 +69,7 @@ function App() {
   return (
     <div className="App">
       <ContactResume />
-      {/* <Menu /> */}
+      <Menu />
       <div id="home" className="section">
         <Presentation />
       </div>
