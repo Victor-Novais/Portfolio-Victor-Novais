@@ -74,7 +74,7 @@ export default function Portfolio() {
                   <div>
                     <h3 className="portfolio-title">Pay Wise</h3>
                     <p>
-                      Criado parauma empresa a gerenciar finanças de todos os
+                      Criado para uma empresa a gerenciar finanças de todos os
                       usuários.
                     </p>
                   </div>

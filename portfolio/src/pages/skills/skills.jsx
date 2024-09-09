@@ -39,7 +39,7 @@ export default function Skills() {
                 </div>
                 <p class="name">Java</p>
               </div>
-            </div>{" "}
+            </div>
             <div className="div-skill">
               <div class="skill">
                 <div class="skill-inner">

@@ -69,7 +69,7 @@ function App() {
   return (
     <div className="App">
       <ContactResume />
-      <Menu />
+      {/* <Menu /> */}
       <div id="home" className="section">
         <Presentation />
       </div>
@@ -78,10 +78,12 @@ function App() {
       </div>
       <div id="skills" className="section">
         <Skills />
-      </div>{" "}
+      </div>
+
       <div id="portfolio" className="section">
         <Portfolio />
       </div>
+
       <div id="contact" className="section">
         <Contact />
       </div>

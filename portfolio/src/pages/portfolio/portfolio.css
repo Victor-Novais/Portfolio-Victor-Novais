@@ -396,3 +396,140 @@
     line-height: 18px;
   }
 }
+
+@media (min-width: 800px) and (max-width: 1024px) {
+  .hero-portfolio {
+    width: 700px;
+    margin: 180px auto 0 120px;
+  }
+
+  .hero-h4-portfolio {
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: 300;
+    border: 1px solid #565656;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-h4-portfolio img {
+    width: 24px;
+    margin-right: 8px;
+    filter: brightness(0) saturate(100%) invert(100%);
+  }
+
+  .portfolio-item-1,
+  .portfolio-item-2,
+  .portfolio-item-3 {
+    width: 570px;
+    height: 330px;
+    margin-bottom: 40px;
+    padding: 36px;
+    border-radius: 10px;
+    position: relative;
+    transition: box-shadow 0.3s ease-in-out;
+    background-size: cover;
+  }
+
+  .portfolio-item-1 {
+    background-image: url("../../assets/project-1-blur.png");
+  }
+
+  .portfolio-item-2 {
+    background-image: url("../../assets/project-2-blur.png");
+  }
+
+  .portfolio-item-3 {
+    background-image: url("../../assets/project-3-blur.png");
+  }
+
+  .image-box img {
+    width: 80%;
+    height: auto;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+  }
+
+  .content-box {
+    width: calc(100% - 40px);
+    padding: 20px;
+    background: linear-gradient(135deg, #28e98c, #2a2a2a);
+    border-radius: 15px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .portfolio-item-1:hover .content-box,
+  .portfolio-item-2:hover .content-box,
+  .portfolio-item-3:hover .content-box {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .portfolio-item-1:hover,
+  .portfolio-item-2:hover,
+  .portfolio-item-3:hover {
+    box-shadow: 0 0 30px 0.5px #28e98c;
+  }
+
+  .portfolio-title {
+    font-family: "Inter", sans-serif;
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .content-box p {
+    margin: 0;
+  }
+
+  .skill-project {
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    bottom: 20px;
+    left: 20px;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .portfolio-item-1:hover .skill-project,
+  .portfolio-item-2:hover .skill-project,
+  .portfolio-item-3:hover .skill-project {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  .skill-project li {
+    background: #ffffff;
+    border-radius: 30px;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+  }
+
+  .seta-ir {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    margin-left: calc(100% - 70px);
+    margin-top: -30px;
+    filter: invert(100%) brightness(1000%);
+  }
+}

@@ -179,7 +179,7 @@ label span {
     width: 320px;
     height: auto;
     margin-top: 40px;
-    margin-left: 0;
+    margin-left: 100;
   }
 
   .hero-h4-contact {
@@ -255,5 +255,93 @@ label span {
 
   label span {
     font-size: 8px;
+  }
+}
+@media (min-width: 800px) and (max-width: 1024px) {
+  .hero-contact {
+    width: 600px;
+    height: auto;
+    margin: 100px auto 0 50px;
+  }
+
+  .hero-h4-contact {
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin-top: 45px;
+    margin-bottom: 20px;
+  }
+
+  .hero-h4-contact img {
+    width: 24px;
+    margin-right: 8px;
+  }
+
+  .contact-h3 {
+    font-size: 20px;
+    margin-left: -335px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+  }
+
+  .row {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin: 0 auto;
+    max-width: 700px;
+  }
+
+  .col-md-6 {
+    flex: 1;
+    min-width: 45%;
+  }
+
+  .col-md-12 {
+    flex: 1 1 100%;
+  }
+
+  .input-group label {
+    font-size: 12px;
+    color: #ffffff;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+  }
+
+  .input-group input,
+  .input-group textarea,
+  .input-group select {
+    background-color: #1f1f1f;
+    color: #ccc;
+    border: 1px solid #333;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    outline: none;
+  }
+
+  .input-group input::placeholder,
+  .input-group textarea::placeholder {
+    color: #555;
+  }
+
+  .upload-attachment label {
+    font-size: 14px;
+  }
+
+  .upload-attachment img.upload-icon {
+    width: 24px;
+    height: auto;
+    margin-right: 10px;
+    filter: brightness(0) saturate(100%) invert(100%);
+  }
+
+  .submit-btn-wrap {
+    text-align: center;
+    margin-top: 20px;
   }
 }

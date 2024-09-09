@@ -183,3 +183,42 @@
     margin-right: 5px;
   }
 }
+
+@media (min-width: 800px) and (max-width: 1024px) {
+  .hero-presentation {
+    width: 650px;
+
+    margin-top: 700px;
+  }
+
+  .text-apresentation {
+    width: 100%;
+    font-size: 50px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    margin-top: 80px;
+    font-weight: 300;
+  }
+
+  .span-name {
+    font-size: 48px;
+    line-height: 60px;
+  }
+
+  .span-apresentation {
+    font-size: 18px;
+    line-height: 25px;
+    color: #999999;
+  }
+
+  .hero-h4 {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-top: 40px;
+  }
+
+  .hero-h4 img {
+    width: 16px;
+    margin-right: 8px;
+  }
+}

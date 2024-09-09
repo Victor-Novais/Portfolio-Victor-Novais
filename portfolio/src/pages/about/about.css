@@ -220,3 +220,44 @@
     margin-right: 5px;
   }
 }
+
+@media (min-width: 800px) and (max-width: 1024px) {
+  .hero-about {
+    width: 600px;
+
+    margin-top: -200px;
+  }
+
+  .text-about {
+    width: 100%;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .span-about {
+    width: 100%;
+  }
+
+  .span-about span {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .span-text-about {
+    font-size: 36px;
+    line-height: 50px;
+  }
+
+  .hero-h4-about {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin-top: 40px;
+  }
+
+  .hero-h4-about img {
+    width: 18px;
+    margin-right: 8px;
+  }
+}
