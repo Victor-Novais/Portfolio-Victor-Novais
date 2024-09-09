@@ -218,7 +218,7 @@ a {
   }
 }
 
-@media (min-width: 360px) {
+@media (max-width: 360px) {
   .contact-bar {
     width: 260px;
     padding: 30px;
