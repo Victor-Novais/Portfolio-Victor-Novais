@@ -257,7 +257,7 @@ label span {
     font-size: 8px;
   }
 }
-@media (min-width: 800px) and (max-width: 1024px) {
+@media (min-width: 800px) and (max-width: 1025px) {
   .hero-contact {
     width: 600px;
     height: auto;

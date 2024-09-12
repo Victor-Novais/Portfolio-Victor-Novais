@@ -258,7 +258,7 @@ a {
   }
 }
 
-@media (min-width: 800px) and (max-width: 1024px) {
+@media (min-width: 800px) and (max-width: 1025px) {
   .contact-bar {
     width: 700px;
     height: 500px;

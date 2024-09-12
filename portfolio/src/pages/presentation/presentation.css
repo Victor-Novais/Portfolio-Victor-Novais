@@ -184,10 +184,9 @@
   }
 }
 
-@media (min-width: 800px) and (max-width: 1024px) {
+@media (min-width: 800px) and (max-width: 1025px) {
   .hero-presentation {
-    width: 650px;
-
+    width: 600px;
     margin-top: 700px;
   }
 

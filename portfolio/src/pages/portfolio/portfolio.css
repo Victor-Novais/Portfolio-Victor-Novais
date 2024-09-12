@@ -397,7 +397,7 @@
   }
 }
 
-@media (min-width: 800px) and (max-width: 1024px) {
+@media (min-width: 800px) and (max-width: 1025px) {
   .hero-portfolio {
     width: 700px;
     margin: 180px auto 0 120px;
