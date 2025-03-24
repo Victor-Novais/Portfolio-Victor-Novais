@@ -1,4 +1,4 @@
-.hero-skills {
+p .hero-skills {
   width: 770px;
   height: auto;
 
@@ -42,17 +42,28 @@
 }
 
 .div-skill {
-  width: 175px;
-  height: 275px;
+
   margin-right: 40px;
 }
 
+.skill {
+
+  text-align: center;
+}
+
 .skill-inner {
+  display: flex;
+  width: 170px;
+  height: 160px;
+
   border: 2px solid #565656;
   border-radius: 85px;
   padding: 54px 0 48px 0;
+
   margin-bottom: 20px;
   transition: 0.3s;
+
+  justify-content: center;
   align-items: center;
 }
 
@@ -64,8 +75,8 @@
   filter: brightness(0) saturate(100%) invert(100%);
   width: 70px;
   height: 61px;
-  margin-left: 50px;
-  margin-top: 40px;
+
+
 }
 
 .row-skills {
@@ -88,8 +99,7 @@ p {
   font-family: "Inter", sans-serif;
   font-size: 14px;
   color: #fff;
-  margin: 0;
-  margin-left: 68px;
+
 }
 
 @media (max-width: 640px) {
@@ -98,10 +108,12 @@ p {
     margin-top: -300px;
     margin-left: 30px;
   }
+
   .row-skills {
     width: 500px;
   }
 }
+
 @media (max-width: 450px) {
   .hero-skills {
     width: 400px;
@@ -142,10 +154,7 @@ p {
     margin-left: 53px;
   }
 
-  p {
-    font-size: 12px;
-    margin-left: 55px;
-  }
+
 }
 
 @media (min-width: 361px) and (max-width: 420px) {
@@ -174,7 +183,7 @@ p {
   .skill-icon {
     width: 45px;
     height: 40px;
-    margin-left: 40px;
+
     margin-top: 15px;
   }
 
@@ -188,10 +197,7 @@ p {
     margin-left: 45px;
   }
 
-  p {
-    font-size: 10px;
-    margin-left: 50px;
-  }
+
   .hero-h4-skills {
     font-size: 10px;
     padding: 7px 12px;
@@ -225,7 +231,7 @@ p {
   .skill-icon {
     width: 40px;
     height: 35px;
-    margin-left: 35px;
+
     margin-top: 10px;
   }
 
@@ -239,10 +245,7 @@ p {
     margin-left: 40px;
   }
 
-  p {
-    font-size: 10px;
-    margin-left: 45px;
-  }
+
 
   .hero-h4-skills {
     font-size: 9px;
@@ -255,6 +258,7 @@ p {
     margin-right: 5px;
   }
 }
+
 @media (min-width: 800px) and (max-width: 1025px) {
   .hero-skills {
     width: 700px;
@@ -303,7 +307,7 @@ p {
   .skill-icon {
     width: 60px;
     height: 55px;
-    margin-left: 55px;
+
     margin-top: 30px;
   }
 
@@ -313,8 +317,5 @@ p {
     margin-left: 60px;
   }
 
-  p {
-    font-size: 16px;
-    margin-left: 60px;
-  }
+
 }

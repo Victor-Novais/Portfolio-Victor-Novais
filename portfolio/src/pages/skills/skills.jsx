@@ -26,7 +26,7 @@ export default function Skills() {
               <div class="skill">
                 <div class="skill-inner">
                   <img className="skill-icon" src={js} alt="JS"></img>
-                  <h1 class="percent">90%</h1>
+
                 </div>
                 <p class="name">JavaScript</p>
               </div>
@@ -35,7 +35,7 @@ export default function Skills() {
               <div class="skill">
                 <div class="skill-inner">
                   <img className="skill-icon" src={java} alt="JS"></img>
-                  <h1 class="percent">80%</h1>
+
                 </div>
                 <p class="name">Java</p>
               </div>
@@ -44,7 +44,7 @@ export default function Skills() {
               <div class="skill">
                 <div class="skill-inner">
                   <img className="skill-icon" src={sql} alt="JS"></img>
-                  <h1 class="percent">90%</h1>
+
                 </div>
                 <p class="name">SQL</p>
               </div>
@@ -53,7 +53,7 @@ export default function Skills() {
               <div class="skill">
                 <div class="skill-inner">
                   <img className="skill-icon" src={biblioteca} alt="JS"></img>
-                  <h1 class="percent">90%</h1>
+
                 </div>
                 <p class="name">React</p>
               </div>
@@ -62,7 +62,7 @@ export default function Skills() {
               <div class="skill">
                 <div class="skill-inner">
                   <img className="skill-icon" src={nodejs} alt="JS"></img>
-                  <h1 class="percent">80%</h1>
+
                 </div>
                 <p class="name">Node.js</p>
               </div>
@@ -71,7 +71,7 @@ export default function Skills() {
               <div class="skill">
                 <div class="skill-inner">
                   <img className="skill-icon" src={html} alt="JS"></img>
-                  <h1 class="percent">95%</h1>
+
                 </div>
                 <p class="name">HTML</p>
               </div>
@@ -80,7 +80,7 @@ export default function Skills() {
               <div class="skill">
                 <div class="skill-inner">
                   <img className="skill-icon" src={css} alt="JS"></img>
-                  <h1 class="percent">95%</h1>
+
                 </div>
                 <p class="name">CSS</p>
               </div>
